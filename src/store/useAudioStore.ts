@@ -27,7 +27,7 @@ const sound = new Howl({
 
 let audioStoreSet: ((state: Partial<AudioState>) => void) | null = null;
 
-export const useAudioStore = create<AudioState>((set, get) => {
+export const useAudioStore = create<AudioState>((set) => {
   audioStoreSet = set;
   return {
     isPlaying: sound.playing(),
