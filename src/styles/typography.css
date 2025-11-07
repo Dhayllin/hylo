@@ -1,0 +1,31 @@
+.super-shake {
+  font-family: "SuperShake", sans-serif;
+  line-height: 1.3;
+}
+
+.super-plants {
+  font-family: "SuperPlants", sans-serif;
+}
+
+.njal-bold {
+  font-family: "NjalBold", sans-serif;
+}
+
+.evil-empire {
+  font-family: "EvilEmpire", sans-serif;
+}
+
+.call-of-ops-duty {
+  font-family: "CallOfOpsDuty", sans-serif;
+}
+
+.super-rocky {
+  font-family: "SuperRocky", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

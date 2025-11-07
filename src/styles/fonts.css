@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "EvilEmpire";
+  src: url("../assets/fonts/EvilEmpire.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CallOfOpsDuty";
+  src: url("../assets/fonts/CallOfOpsDuty.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SuperShake";
+  src: url("../assets/fonts/SuperShake.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SuperPlants";
+  src: url("../assets/fonts/SuperPlants.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NjalBold";
+  src: url("../assets/fonts/NjalBold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SuperRocky";
+  src: url("../assets/fonts/SuperRocky.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
