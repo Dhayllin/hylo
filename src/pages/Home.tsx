@@ -187,13 +187,15 @@ export const Home = () => {
       {/* Botão de música */}
       <button
         onClick={toggleMusic}
-        className="absolute top-5 right-5 text-[#CCCCCC] bg-[#00000075] p-1!"
+        className="absolute top-5 right-5 p-[0px_0px_16px_16px] cursor-pointer flex items-center justify-center"
       >
-        {isPlaying ? (
-          <Volume2 size={24} className="" />
-        ) : (
-          <VolumeOff size={24} className="" />
-        )}
+        <span className="text-[#CCCCCC] bg-[#00000075] rounded-lg p-2.5">
+          {isPlaying ? (
+            <Volume2 size={24} className="" />
+          ) : (
+            <VolumeOff size={24} className="" />
+          )}
+        </span>
       </button>
     </div>
   );
