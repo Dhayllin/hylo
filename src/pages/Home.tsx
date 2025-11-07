@@ -110,17 +110,22 @@ export const Home = () => {
             </motion.nav>
           ) : (
             <motion.div
-              className="flex flex-col sm:gap-6 gap-4 lg:max-w-[70%] max-w-full bg-black/70 rounded-xl p-8 sm:mb-24 mb-0"
+              className="flex flex-col gap-4 lg:max-w-[85%] max-w-full bg-black/70 rounded-xl p-8 sm:mb-24 mb-0"
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.7, ease: "easeOut" }}
             >
               <h2 className="text-3xl font-bold mb-4">Sobre</h2>
-              <p className="sm:text-lg text-base mb-4 montserrat font-bold">
-                A Hylo Cartis Studio nasceu da paixão pela cultura urbana e pelo
-                design autêntico. Nossa missão é criar peças que expressem a
-                identidade de quem vive a rua, misturando arte, música e moda em
-                cada detalhe.
+              <p className="sm:text-base text-sm montserrat font-semibold">
+                A Hylo Cartis é um estúdio de moda e identidade visual expandida
+                que une arte, espiritualidade e estética em narrativas
+                vestíveis. Nascida no deserto — metáfora da travessia criativa
+                —, a marca constrói peças que traduzem força, fé e movimento.
+                Entre o streetwear e o luxo artesanal, a Hylo é fábrica e
+                templo: produz suas próprias roupas, cria imagens, som e
+                experiências que conectam corpo e território. Cada coleção é um
+                manifesto sobre autoconhecimento, tempo e transformação — onde
+                vestir é também um ato de expressão e permanência.
               </p>
               <a
                 href="https://instagram.com/hylocartistudio"
