@@ -62,7 +62,7 @@ export const Home = () => {
   }
 
   return (
-    <div className="super-rocky relative w-screen h-screen overflow-hidden flex p-10 sm:p-24">
+    <div className="super-rocky relative w-screen min-h-screen overflow-hidden flex p-10 sm:p-24 overflow-y-auto">
       <img
         src="/original-webp.webp"
         alt="background"
@@ -71,7 +71,7 @@ export const Home = () => {
       />
       <div className="absolute top-0 left-0 w-screen h-screen bg-black/20 z-0 pointer-events-none" />
 
-      <div className="flex lg:flex-row flex-col-reverse z-10 relative justify-around sm:justify-between w-full">
+      <div className="flex lg:flex-row flex-col-reverse z-10 relative justify-around gap-6 sm:justify-between w-full">
         {/* Navegação ou Sobre */}
         <div className="flex flex-col w-full lg:w-1/2 justify-center text-white">
           {!showSobre ? (
