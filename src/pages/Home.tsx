@@ -96,13 +96,6 @@ export const Home = () => {
               <motion.div
                 initial={{ opacity: 0, x: -40 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.85, duration: 0.4 }}
-              >
-                <MenuButton text="Coleção" onClick={() => navigate("/")} />
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, x: -40 }}
-                animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1, duration: 0.4 }}
               >
                 <MenuButton text="Sobre" onClick={() => setShowSobre(true)} />
