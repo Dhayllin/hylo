@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import { MenuButton } from "../components/MenuButton";
 import { useAudioStore } from "../store/useAudioStore";
 import { LoaderCircle, Instagram, Volume2, VolumeOff } from "lucide-react";
@@ -6,7 +5,6 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export const Home = () => {
-  const navigate = useNavigate();
   const { toggleMusic, isPlaying } = useAudioStore();
   const [bgLoaded, setBgLoaded] = useState(false);
   const [showSobre, setShowSobre] = useState(false);
@@ -93,6 +91,7 @@ export const Home = () => {
                   }
                 />
               </motion.div>
+
               <motion.div
                 initial={{ opacity: 0, x: -40 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -120,6 +119,7 @@ export const Home = () => {
                 manifesto sobre autoconhecimento, tempo e transformação — onde
                 vestir é também um ato de expressão e permanência.
               </p>
+
               <a
                 href="https://instagram.com/hylocartistudio"
                 target="_blank"
@@ -129,6 +129,7 @@ export const Home = () => {
               >
                 <Instagram size={40} />
               </a>
+
               <MenuButton text="Voltar" onClick={() => setShowSobre(false)} />
             </motion.div>
           )}
@@ -149,6 +150,7 @@ export const Home = () => {
             >
               HYLO
             </motion.h1>
+
             <motion.h2
               className="text-[5rem] sm:text-[6rem] text-[#1a150f] leading-none w-full mb-4"
               style={{
@@ -161,6 +163,7 @@ export const Home = () => {
             >
               CARTIS STUDIO
             </motion.h2>
+
             <motion.span
               className="text-[1.5rem] text-[#1a150f]"
               style={{
@@ -177,7 +180,7 @@ export const Home = () => {
         </div>
       </div>
 
-      {/* Botão de música */}
+      {/* Botão Música */}
       <button
         onClick={toggleMusic}
         className="absolute top-5 right-5 p-[0px_0px_16px_16px] cursor-pointer flex items-center justify-center z-20"
